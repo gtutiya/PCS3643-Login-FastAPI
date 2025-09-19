@@ -29,3 +29,17 @@ rode a aplicação
 ```bash 
 uvicorn app.main:app --reload
 ```
+
+### Teste prático 
+
+Registramos o usuario "douglas" com a senha "douglas" e totp "J6YNUFMGCBWQDTHJJ6BR4WA63UGSBTOT"  e usamos o site https://totp.danhersam.com/ para poder gerar o tkn, mas pode ser qualquer um de sua preferencia, 
+
+### Exemplo em imagens do funcionamento
+![Tela Login](imagens/tela_login.png)
+Exemplo da aplicação na sua tela inicial em login
+![Tela Erro](imagens/tela_erro.png)
+Exemplo ao entrar com um login que não está registrado na tabela usuarios_douglas
+![Tela Login](imagens/tela_2fa.png)
+Tela que aparece ao efeturar o login
+![Tela Login](imagens/tela_login_feito.png)
+Tela final apos executar o login de forma correta com o 2fa

@@ -1,6 +1,6 @@
 # Atividade FastAPI — Grupo 6
 ### Douglas Souza - NUSP 10748048
-### Guilherme Tutiya - NUSP 
+### Guilherme Tutiya - NUSP 14576065
 
 # Descrição do projeto
 Este projeto consiste em uma aplicação de login desenvolvida em FastAPI.
